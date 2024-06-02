@@ -70,22 +70,25 @@
         </section>
         <main>
             <section class="secSlide">
-                <div class="banner-slide" id="bannerSlide">
-                    <img src="/code/img/slide1.webp" class="banner">
-                    <img src="/code/img/slide2.webp" class="banner">
-                    <img src="/code/img/slide3.webp" class="banner">
-                    <img src="/code/img/slide4.webp" class="banner">
+                <div class="banner-container">
+                    <img id="bannerImage" class="banner" src="/code/img/slide1.webp" width=100%>
                 </div>
                 <script>
-                    <!-- đoạn này định làm banner tự chuyển ảnh sau 3 giây  -->
-                    var slideIndex = 0;
-                    function showNextSlide() {
+                    var index = 0;
+                    var images = [
+                        '/code/img/slide1.webp',
+                        '/code/img/slide2.webp',
+                        '/code/img/slide3.webp',
+                        '/code/img/slide4.webp'
+                    ];
+                    var bannerImage = document.getElementById('bannerImage');
 
+                    function nextSlide() {
+                        index = (index + 1) % images.length;
+                        bannerImage.src = images[index];
                     }
-                    setInterval(showNextSlide, 3000);
-
+                    setInterval(nextSlide, 2000);
                 </script>
-
             </section>
 
         </main>
