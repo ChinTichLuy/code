@@ -4,6 +4,7 @@
     margin: 0 auto;
 }
 header{
+    align-items: center;
     background-color: #234BBB;
     display: flex;
 }
@@ -32,16 +33,38 @@ input[name="search"]{
     height: 24px;
     fill: #234BBB; 
 }
-a{
-    color: white;
-    font-size: 30px;
+.head_right{
+    display: flex;
+    font-size: 20px;
 }
-.sec1{
+.head_right i{
+    font-size: 25px;
+}
+.head_right a{
+    text-decoration: none;
+    color: #fff;
+
+}
+.hotline{
+    color: #fff;
+    margin: 18px;
+}
+.favorite,
+.login_header,
+.cart_header {
+    transition: transform 0.3 ease;
+    text-align: center;
+    margin: 18px;
+}
+.favorite:hover i,
+.login_header:hover i,
+.cart_header:hover i {
+    transform: scale(1.2);
+}
+.nav{
+    height: 40px;
     background-color: #234BBB;
 }
-
-footer{
-    height: 100px;
-    background-color: #afb5c7;
-    
+.nav ul{
+    display: flex;
 }

@@ -10,6 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/code/cssTrangChu.css">
+    <script src="https://kit.fontawesome.com/e14b23f1dc.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -32,21 +33,38 @@
                 </button>
             </form>
             <div class="head_right">
-                <div class="hotline"></div>
-                <div class="favorite"></div>
-                <div class="login_header"></div>
-                <div class="cart_header"></div>
+                <div class="hotline">
+                    Hotline
+                    <br>
+                    <b>086 767 7891</b>
+                </div>
+                <a href="#">
+                    <div class="favorite">
+                        <i class="fa-solid fa-heart"></i><br>
+                        Wishlist
+                    </div>
+                </a>
+                <a href="">
+                    <div class="login_header">
+                        <i class="fa-solid fa-user"></i><br>
+                        Đăng nhập
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="cart_header">
+                        <i class="fa-solid fa-cart-shopping"></i><br>
+                        Giỏ hàng
+                    </div>
+                </a>
             </div>
         </header>
-        <section class="sec1">
-            <nav>
-                <ul>
-                    <li><a href="#">Chó</a></li>
-                    <li><a href="#">Mèo</a></li>
-                    <li><a href="#">Dụng cụ</a></li>
-                </ul>
-            </nav>
-        </section>
+        <div class="nav">
+            <ul>
+                <li><a href="#">Chó</a></li>
+                <li><a href="#">Mèo</a></li>
+                <li><a href="#">Dụng cụ</a></li>
+            </ul>
+        </div>
         <section style="background-color: #FFD700; height:50px; text-align:center">
             Welcome to ChinPET!!!
         </section>
