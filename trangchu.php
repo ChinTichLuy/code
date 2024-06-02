@@ -38,14 +38,32 @@
             </div>
         </header>
         <section class="sec1">
-            <nav>
-                <ul>
-                    <li><a href="#">Chó</a></li>
-                    <li><a href="#">Mèo</a></li>
-                    <li><a href="#">Dụng cụ</a></li>
-                </ul>
-            </nav>
+            <div class="menu">
+                <span>Chó</span>
+                <div class="menu-content">
+                    <p><a href="#">Thức ăn cho chó Xu lồng</a></p>
+                    <p><a href="#">Thức ăn cho chó Xu không lồng</a></p>
+                    <p><a href="#">Dog Toys</a></p>
+                </div>
+            </div>
+            <div class="menu">
+                <span>Mèo</span>
+                <div class="menu-content">
+                    <p><a href="#">Thức ăn cho Mèo Xu lồng</a></p>
+                    <p><a href="#">Thức ăn cho Mèo Xu không lồng</a></p>
+                    <p><a href="#">Cat Toys</a></p>
+                </div>
+            </div>
+            <div class="menu">
+                <span>Dụng cụ</span>
+                <div class="menu-content">
+                    <p><a href="#">Đồ tỉa lông</a></p>
+                    <p><a href="#">Bát ăn cho pet 4 chân</a></p>
+                    <p><a href="#">Lông vũ </a></p>
+                </div>
+            </div>
         </section>
+
         <section style="background-color: #FFD700; height:50px; text-align:center">
             Welcome to ChinPET!!!
         </section>

@@ -33,10 +33,13 @@ input[name="search"]{
     fill: #234BBB; 
 }
 a{
-    color: white;
+    color: Black;
     font-size: 30px;
+   
+   
 }
 .sec1{
+    display: flex;
     background-color: #234BBB;
 }
 
@@ -44,4 +47,26 @@ footer{
     height: 100px;
     background-color: #afb5c7;
     
+}
+.menu {
+    position: relative;
+    display: flex;
+}
+.menu-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(150, 190, 209);
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    margin-top: 30px;
+}
+.menu:hover .menu-content {
+    display: block;
+}
+
+.menu{
+    font-size: 30px;
+    margin-left: 150px;
+
 }
