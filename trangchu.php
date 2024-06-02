@@ -1,7 +1,3 @@
-<?php
-
-
-?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -14,7 +10,7 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="header">
         <header>
             <svg width="250" height="80">
                 <rect x="0" y="0" width="150" height="80" fill="#234BBB"></rect>
@@ -59,19 +55,81 @@
             </div>
         </header>
         <section class="sec1">
-            <ul>
-                <li>Chó</li>
-                <li>Mèo</li>
-                <li>Thiết bị thông minh</li>
-                <li>Hàng mới về</li>
-                <li>Giới thiệu</li>
-                <li>Tin tức</li>
-
-            </ul>
+            <li>
+                <a href="#">Chó</a>
+                <ul class="menu">
+                    <div class="sub_menu">
+                        <li><a href="#"><b>Thức Ăn Cho Chó</b></a></li>
+                        <li><a href="#">Thức ăn hạt</a></li>
+                        <li><a href="#">Thức ăn ướt</a></li>
+                        <li><a href="#">Thức ăn hữu cơ</a></li>
+                    </div>
+                    <!-- end 1 muc -->
+                    <div class="sub_menu">
+                        <li><a href="#"><b>Phụ Kiến</b></a></li>
+                        <li><a href="#">Vòng cổ</a></li>
+                        <li><a href="#">Dụng cụ ăn uống</a></li>
+                        <li><a href="#">Khay vệ sinh</a></li>
+                    </div>
+                    <!-- end mục 2 -->
+                    <div class="sub_menu">
+                        <li><a href="#"><b>Bánh</b></a></li>
+                        <li><a href="#">Xương gặp sạch răng</a></li>
+                        <li><a href="#">Bánh quy</a></li>
+                        <li><a href="#">Thịt sấy khô</a></li>
+                    </div>
+                    <!-- end mục 3 -->
+                    <div class="sub_menu">
+                        <li><a href="#"><b>Đồ Chơi</b></a></li>
+                        <li><a href="#">Xương gặm</a></li>
+                        <li><a href="#">Nhồi bông</a></li>
+                    </div>
+                    <!-- end mục 4 -->
+                </ul>
+            </li>
+            <li>
+                <a href="#">Mèo</a>
+                <ul class="menu">
+                    <div class="sub_menu">
+                        <li><a href="#"><b>Thức Ăn Cho Mèo</b></a></li>
+                        <li><a href="#">Thức ăn hạt</a></li>
+                        <li><a href="#">Thức ăn ướt</a></li>
+                        <li><a href="#">Thức ăn hữu cơ</a></li>
+                    </div>
+                    <!-- end 1 muc -->
+                    <div class="sub_menu">
+                        <li><a href="#"><b>Phụ Kiến</b></a></li>
+                        <li><a href="#">Vòng cổ</a></li>
+                        <li><a href="#">Dụng cụ ăn uống</a></li>
+                        <li><a href="#">Khay vệ sinh</a></li>
+                    </div>
+                    <!-- end mục 2 -->
+                    <div class="sub_menu">
+                        <li><a href="#"><b>Vệ Sinh</b></a></li>
+                        <li><a href="#">Cát cho mèo</a></li>
+                        <li><a href="#">Sữa tắm</a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                    </div>
+                    <!-- end mục 3 -->
+                    <div class="sub_menu">
+                        <li><a href="#"><b>Chuồng</b></a></li>
+                        <li><a href="#">Balo</a></li>
+                        <li><a href="#">Lồng vẫn chuyển</a></li>
+                    </div>
+                    <!-- end mục 4 -->
+                </ul>
+            </li>
+            <li><a href="#">Thiết bị thông minh</a></li>
+            <li><a href="#">Hàng mới về</a></li>
+            <li><a href="#">Giới thiệu</a></li>
+            <li><a href="#">Tin tức</a></li>
         </section>
         <div class="Hello">
             Welcome to ChinPET!!!
         </div>
+    </div>
+    <div class="container">
         <main>
             <section class="secSlide">
                 <div class="banner-container">

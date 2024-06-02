@@ -1,9 +1,22 @@
-
+body,
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background: #234BBB;
+    width: 100%;
+}
 .container{
-    width: 1400px;
+    width: 1200px;
     margin: 0 auto;
 }
+/* phần tìm kiếm */
 header{
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
     align-items: center;
     background-color: #234BBB;
     display: flex;
@@ -14,7 +27,8 @@ form{
     position: relative;
 }
 input[name="search"]{
-    width: 100%;
+    padding-left: 10px;
+    width: 467px;
     height: 50px;
     border: none;
     border-radius: 7px;
@@ -22,7 +36,7 @@ input[name="search"]{
 .btn_search{
     position: absolute;
     top: 0;
-    right: 0;
+    right: 10px;
     height: 100%;
     border: none;
     background-color: #fff;
@@ -36,6 +50,7 @@ input[name="search"]{
 .head_right{
     display: flex;
     font-size: 20px;
+    align-items: center;
 }
 .head_right i{
     font-size: 25px;
@@ -43,16 +58,16 @@ input[name="search"]{
 .head_right a{
     text-decoration: none;
     color: #fff;
-
 }
 .hotline{
+    white-space: nowrap;
     color: #fff;
     margin: 18px;
 }
 .favorite,
 .login_header,
 .cart_header {
-    transition: transform 0.3 ease;
+    white-space: nowrap;
     text-align: center;
     margin: 18px;
 }
@@ -61,10 +76,46 @@ input[name="search"]{
 .cart_header:hover i {
     transform: scale(1.2);
 }
+/* end tìm kiếm */
+
+/* phần menu */
 .sec1{
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
     display: flex;
     background-color: #234BBB;
 }
+.sec1 li{
+    font-size: 20px;
+    list-style-type: none;
+    margin: 20px;
+    font-weight: bold;
+    position: relative;
+}
+.sec1 li a{
+    color: #fff;
+    text-decoration: none;
+}
+.sec1 li:hover .sub_menu{
+    display: block;
+}
+.menu{
+    display: flex;
+    margin: 0px;
+    position: absolute;
+}
+.sub_menu{
+    display: none;
+}
+.sub_menu li{
+    width: 100px;
+    background-color: #fff;
+}
+.sub_menu li a{
+    color: black;
+}
+/* end menu */
 .Hello{
     height: 30px;
     background: #FFD700;
