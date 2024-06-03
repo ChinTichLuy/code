@@ -158,15 +158,24 @@
         <footer>
 
             <div class="form-footer">
-                <div class="chu">
+                <div class="content-footer">
                     <h2>Thành viên Chiners</h2>
                     <p>Đăng ký thành viên ngay hôm nay để nhận email về sản phẩm mới và chương trình khuyến mãi của ChinPET</p>
 
                 </div>
-                <div class="form">
+                <div class="email">
                     <form action="" method="GET">
-                        <input type="text" placeholder="Email của bạn...">
-                        <button>Đăng kí</button>
+                        <input type="text" placeholder="Email của bạn..." style="width: 500px; height:50px;border:1px solid #b3b3b3; border-radius:10px;">
+
+                        <button style=" width: 150px;
+                                         height: 50px;
+                                         border-radius: 90px;
+                                         background-color: #234BBB;
+                                         color: white;
+                                         font-size: 20px;
+                                          border: none;
+                                          margin-left:20px;
+                                        ">Đăng kí</button>
                     </form>
                 </div>
             </div>
@@ -204,11 +213,11 @@
                 </div>
                 <div class="tt">
                     <p>Liên Hệ</p>
-                    <p>CÔNG TY CỔ PHẦN THUƠNG MẠI & DỊCH VỤ</p>
-                    <p>MST: 0987654321</p>
-                    <p> 116 Nguyễn Văn Thủ, Phường Đa Kao, Quận 1, <br> Thành phố Hồ Chí Minh, Việt Nam</p>
-                    <p>Hotline: 0867677891</p>
-                    <p> Email: marketing@paddy.vn</p>
+                    CÔNG TY CỔ PHẦN THUƠNG MẠI & DỊCH VỤ <br>
+                    MST: 0987654321 <br>
+                    116 Nguyễn Văn Thủ, Phường Đa Kao, Quận 1, <br> Thành phố Hà Nội, Việt Nam <br>
+                    Hotline: 0987654321 <br>
+                    Email: marketing@chinpet.vn
 
                 </div>
             </div>
