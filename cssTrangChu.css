@@ -1,19 +1,22 @@
 body,
-html{
+html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.header{
+
+.header {
     background: #234BBB;
     width: 100%;
 }
-.container{
+
+.container {
     width: 1200px;
     margin: 0 auto;
 }
+
 /* phần tìm kiếm */
-header{
+header {
     width: 80%;
     margin: 0 auto;
     max-width: 1200px;
@@ -21,19 +24,21 @@ header{
     background-color: #234BBB;
     display: flex;
 }
-form{
-    margin: 20px;
-    width: 600px;
+
+form {
+    margin: 10px;
     position: relative;
 }
-input[name="search"]{
+
+input[name="search"] {
     padding-left: 10px;
     width: 467px;
     height: 50px;
     border: none;
     border-radius: 7px;
 }
-.btn_search{
+
+.btn_search {
     position: absolute;
     top: 0;
     right: 10px;
@@ -42,28 +47,34 @@ input[name="search"]{
     background-color: #fff;
     cursor: pointer;
 }
-.icon-search{
+
+.icon-search {
     width: 24px;
     height: 24px;
-    fill: #234BBB; 
+    fill: #234BBB;
 }
-.head_right{
+
+.head_right {
     display: flex;
     font-size: 20px;
     align-items: center;
 }
-.head_right i{
+
+.head_right i {
     font-size: 25px;
 }
-.head_right a{
+
+.head_right a {
     text-decoration: none;
     color: #fff;
 }
-.hotline{
+
+.hotline {
     white-space: nowrap;
     color: #fff;
     margin: 18px;
 }
+
 .favorite,
 .login_header,
 .cart_header {
@@ -71,22 +82,25 @@ input[name="search"]{
     text-align: center;
     margin: 18px;
 }
+
 .favorite:hover i,
 .login_header:hover i,
 .cart_header:hover i {
     transform: scale(1.2);
 }
+
 /* end tìm kiếm */
 
 /* phần menu */
-.sec1{
+.sec1 {
     width: 80%;
     margin: 0 auto;
     max-width: 1200px;
     display: flex;
     background-color: #234BBB;
 }
-.sec1 li{
+
+.sec1 li {
     font-size: 20px;
     list-style-type: none;
     margin: 0px 20px;
@@ -118,12 +132,81 @@ input[name="search"]{
 .sec1 li a:hover{
     text-decoration: underline;
 }
+
+.sec1 li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.sec1 li:hover .sub_menu {
+    display: block;
+}
+
+.menu {
+    display: flex;
+    margin: 0px;
+    position: absolute;
+}
+
+.sub_menu {
+    display: none;
+}
+
+.sub_menu li {
+    width: 100px;
+    background-color: #fff;
+}
+
+.sub_menu li a {
+    color: black;
+}
+
 /* end menu */
-.Hello{
+.Hello {
     height: 30px;
     background: #FFD700;
     font-size: large;
     text-align: center;
     line-height: 30px;
     font-weight: 600;
+}
+
+/* footer*/
+.footer {
+    background-color: #f5f5f5;
+    width: 100%;
+    padding: 30px;
+
+}
+.form-footer{
+    text-align: center;
+}
+.in4-footer{
+     display: flex; 
+     justify-content: center;
+     
+}
+.tt{
+    padding-left: 150px;
+  
+}
+.tt li{
+
+    list-style-type: none;
+     padding: 10px 0px 20px 0px;
+}
+.tt a{
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    
+}
+.tt a:hover{
+    text-decoration: underline;
+    color: #234BBB;
+
+}
+.tt p{
+    font-size: 20px;
+    font-weight: bold ;
 }

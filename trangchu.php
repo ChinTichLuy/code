@@ -20,8 +20,7 @@
                 <input type="text" name="search">
                 <button class="btn_search" aria-label="Tìm kiếm">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon-search">
-                        <path
-                            d="M495,466.2L377.2,348.4c29.2-35.6,46.8-81.2,46.8-130.9C424,103.5,331.5,11,217.5,11C103.4,11,11,103.5,11,217.5  
+                        <path d="M495,466.2L377.2,348.4c29.2-35.6,46.8-81.2,46.8-130.9C424,103.5,331.5,11,217.5,11C103.4,11,11,103.5,11,217.5  
                              S103.4,424,217.5,424c49.7,0,95.2-17.5,130.8-46.7L466.1,495c8,8,20.9,8,28.9,0C503,487.1,503,474.1,495,466.2z M217.5,382.9   
                              C126.2,382.9,52,308.7,52,217.5S126.2,52,217.5,52C308.7,52,383,126.3,383,217.5S308.7,382.9,217.5,382.9z">
                         </path>
@@ -40,7 +39,7 @@
                         Wishlist
                     </div>
                 </a>
-                <a href="">
+                <a href="#">
                     <div class="login_header">
                         <i class="fa-solid fa-user"></i><br>
                         Đăng nhập
@@ -141,10 +140,78 @@
             </section>
 
         </main>
+    </div>
+    <div class="footer">
         <footer>
 
+            <div class="form-footer">
+                <div class="content-footer">
+                    <h2>Thành viên Chiners</h2>
+                    <p>Đăng ký thành viên ngay hôm nay để nhận email về sản phẩm mới và chương trình khuyến mãi của ChinPET</p>
+
+                </div>
+                <div class="email">
+                    <form action="" method="GET">
+                        <input type="text" placeholder="Email của bạn..." style="width: 500px; height:50px;border:1px solid #b3b3b3; border-radius:10px;">
+
+                        <button style=" width: 150px;
+                                         height: 50px;
+                                         border-radius: 90px;
+                                         background-color: #234BBB;
+                                         color: white;
+                                         font-size: 20px;
+                                          border: none;
+                                          margin-left:20px;
+                                        ">Đăng kí</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="in4-footer">
+                <div class="tt">
+                    <p>Shop</p>
+
+                    <li><a href="#">Dành cho Chó</a></li>
+                    <li><a href="#">Dành cho Mèo</a></li>
+                    <li><a href="#">Thương hiệu</a></li>
+                    <li><a href="#">Blogs </a></li>
+                    <li> <a href="#">Bộ sưu tập</a></li>
+
+                </div>
+                <div class="tt">
+                    <p>ChinPET Shop</p>
+
+                    <li><a href="#">Giới thiệu</a></li>
+                    <li><a href="#">Thành viên Chiner</a></li>
+                    <li><a href="#">Điều khoản sử dụng</a></li>
+                    <li><a href="#">Tuyển dụng</a></li>
+
+
+                </div>
+                <div class="tt">
+                    <p>Hỗ Trợ Khách Hàng</p>
+
+                    <li><a href="#">Chính sách đổi trả hàng</a></li>
+                    <li><a href="#">Phương thức vận chuyển</a></li>
+                    <li><a href="#">Chính sách bảo mật</a></li>
+                    <li><a href="#">Phương thức thanh toán</a></li>
+                    <li><a href="#">Chính sách hoàn tiền</a></li>
+
+                </div>
+                <div class="tt">
+                    <p>Liên Hệ</p>
+                    CÔNG TY CỔ PHẦN THUƠNG MẠI & DỊCH VỤ <br>
+                    MST: 0987654321 <br>
+                    116 Nguyễn Văn Thủ, Phường Đa Kao, Quận 1, <br> Thành phố Hà Nội, Việt Nam <br>
+                    Hotline: 0987654321 <br>
+                    Email: marketing@chinpet.vn
+
+                </div>
+            </div>
         </footer>
     </div>
+
+
 
 
 </html>
