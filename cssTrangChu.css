@@ -42,7 +42,7 @@ input[name="search"]{
     background-color: #fff;
     cursor: pointer;
 }
-.icon-search {
+.icon-search{
     width: 24px;
     height: 24px;
     fill: #234BBB; 
@@ -89,31 +89,34 @@ input[name="search"]{
 .sec1 li{
     font-size: 20px;
     list-style-type: none;
-    margin: 20px;
-    font-weight: bold;
+    margin: 0px 20px;
     position: relative;
 }
 .sec1 li a{
+    font-size: 24px;
     color: #fff;
     text-decoration: none;
 }
-.sec1 li:hover .sub_menu{
-    display: block;
-}
 .menu{
-    display: flex;
     margin: 0px;
     position: absolute;
 }
-.sub_menu{
+.sub_menu1{
+    width: 1200px;
+    background-color: #fff;
+    position: absolute;
+    left: -20px;
+    top: 0;
     display: none;
 }
-.sub_menu li{
-    width: 100px;
-    background-color: #fff;
-}
-.sub_menu li a{
+.sub_menu1 li a{
     color: black;
+}
+.sec1 li:hover .sub_menu1{
+    display: block;
+}
+.sec1 li a:hover{
+    text-decoration: underline;
 }
 /* end menu */
 .Hello{
