@@ -11,6 +11,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/be9ed8669f.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -143,8 +146,96 @@
                     setInterval(nextSlide, 2000);
                 </script>
             </section>
+            <!-- Sản phẩm bán chạy -->
+            <h3 class="mt-3">Sản phẩm bán chạy</h3>
+            <hr>
+            <div class="row">
+                <!-- Box sản phẩm -->
+                <div class="col-3">
+                    <div class="border rounded-3 mb-3 overflow-hidden">
+                        <!-- ẢNh -->
+                        <!-- Hiển thị ảnh dạng nâng cao -->
+                        <div class="bg-danger ratio-1x1">
+                            <img src="img/anhsp.webp" alt="" class="mw-100 mh-100">
+                        </div>
+                        <!-- Text và button -->
+                        <div class="p-2">
+                            <h5>Tên sản phẩm</h5>
+                            <div class="d-flex justify-content-between">
+                                <span class="text-danger text-decoration-line-through">200.000 VND</span>
+                                <span class="fw-bold">100.000 VND</span>
+                            </div>
+                            <button class="btn btn-danger rounded-pill w-100 btn-sm mt-1">Mua ngay</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Hết box sản phẩm -->
+                <!-- Box sản phẩm -->
+                <div class="col-3">
+                    <div class="border rounded-3 mb-3 overflow-hidden">
+                        <!-- ẢNh -->
+                        <!-- Hiển thị ảnh dạng nâng cao -->
+                        <div class="bg-danger ratio-1x1">
+                            <img src="img/anhsp.webp" alt="" class="mw-100 mh-100">
+                        </div>
+                        <!-- Text và button -->
+                        <div class="p-2">
+                            <h5>Tên sản phẩm</h5>
+                            <div class="d-flex justify-content-between">
+                                <span class="text-danger text-decoration-line-through">200.000 VND</span>
+                                <span class="fw-bold">100.000 VND</span>
+                            </div>
+                            <button class="btn btn-danger rounded-pill w-100 btn-sm mt-1">Mua ngay</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Hết box sản phẩm -->
+                <!-- Box sản phẩm -->
+                <div class="col-3">
+                    <div class="border rounded-3 mb-3 overflow-hidden">
+                        <!-- ẢNh -->
+                        <!-- Hiển thị ảnh dạng nâng cao -->
+                        <div class="bg-danger ratio-1x1">
+                            <img src="img/anhsp.webp" alt="" class="mw-100 mh-100">
+                        </div>
+                        <!-- Text và button -->
+                        <div class="p-2">
+                            <h5>Tên sản phẩm</h5>
+                            <div class="d-flex justify-content-between">
+                                <span class="text-danger text-decoration-line-through">200.000 VND</span>
+                                <span class="fw-bold">100.000 VND</span>
+                            </div>
+                            <button class="btn btn-danger rounded-pill w-100 btn-sm mt-1">Mua ngay</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Hết box sản phẩm -->
+                <!-- Box sản phẩm -->
+                <div class="col-3">
+                    <div class="border rounded-3 mb-3 overflow-hidden">
+                        <!-- ẢNh -->
+                        <!-- Hiển thị ảnh dạng nâng cao -->
+                        <div class="bg-danger ratio-1x1">
+                            <img src="img/anhsp.webp" alt="" class="mw-100 mh-100">
+                        </div>
+                        <!-- Text và button -->
+                        <div class="p-2">
+                            <h5>Tên sản phẩm</h5>
+                            <div class="d-flex justify-content-between">
+                                <span class="text-danger text-decoration-line-through">200.000 VND</span>
+                                <span class="fw-bold">100.000 VND</span>
+                            </div>
+                            <button class="btn btn-danger rounded-pill w-100 btn-sm mt-1">Mua ngay</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Hết box sản phẩm -->
+            </div>
+            <!-- Hết sản phẩm -->
+    </div>
+    <!-- End main content -->
 
-        </main>
+    </main>
     </div>
     <div class="footer">
         <footer>
